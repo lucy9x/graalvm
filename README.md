@@ -6,6 +6,7 @@
   - Windows: Install SDK 7.1 [GRMSDKX_EN_DVD.iso](https://www.microsoft.com/en-us/download/details.aspx?id=8442) & Install Compiler x64 [VC-Compiler-KB2519277](https://download.microsoft.com/download/7/5/0/75040801-126C-4591-BCE4-4CD1FD1499AA/VC-Compiler-KB2519277.exe)
   
 # Build Native Spring boot
+- `call "C:\Program Files\Microsoft SDKs\Windows\v7.1\Bin\SetEnv.cmd` if windows platform
 - `mvn -Pnative clean package`
 - pom.xml
 ```
